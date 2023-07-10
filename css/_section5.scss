@@ -1,0 +1,60 @@
+.section5 {
+  width: 100%;
+  background-color: white;
+  &-elements {
+    background-color: #541654;
+    clip-path: ellipse(105% 100% at center top);
+    padding-bottom: 30px;
+    &-firstbox {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+      .section5title {
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: -1px;
+        color: white;
+      }
+      .section5btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+
+        gap: 10px;
+        .btn51 {
+          text-decoration: none;
+          text-align: center;
+          width: 100%;
+          font-weight: 600;
+          font-size: 14px;
+          color: 541654;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background-color: white;
+          border-radius: 5px;
+          color: #541654;
+        }
+        .btn52 {
+          text-decoration: none;
+          text-align: center;
+          width: 100%;
+          font-weight: 600;
+          font-size: 14px;
+          color: 541654;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background-color: #541654;
+          border-radius: 5px;
+          color: white;
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+}

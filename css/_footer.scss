@@ -1,0 +1,104 @@
+.footer {
+  &-elements {
+    padding-top: 60px;
+    &-logo {
+      .logo {
+        width: 55px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+      }
+    }
+    &-select {
+      display: flex;
+      align-items: center;
+      display: flex;
+      margin-left: 20px;
+      margin-right: 20px;
+      gap: 30px;
+      padding: 10px 0px 10px 0px;
+
+      .select {
+        appearance: none;
+        width: 100%;
+        border: none;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: "Noto Sans";
+      }
+    }
+    .i {
+      width: 7px;
+      height: 7px;
+      left: 350px;
+      position: absolute;
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+      transform: rotate(-135deg); /* Giramos el cuadrado */
+      transition: all 0.25s ease;
+    }
+    .i:hover {
+      transform: rotate(-45deg); /* Giramos el cuadrado */
+    }
+    &-line {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: grey;
+      border: none;
+      .line {
+        width: 100%;
+        height: 2px;
+        background-color: rgb(230, 230, 230);
+        border: none;
+      }
+    }
+    &-ul {
+      list-style: none;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .li {
+        .an {
+          text-decoration: none;
+          color: black;
+          font-size: 13px;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          .iconfooter1 {
+            width: 30px;
+            margin-right: 5px;
+          }
+          .iconfooter2 {
+            width: 20px;
+            margin-right: 5px;
+          }
+          .iconfooter3 {
+            width: 17px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }&-sm{
+      display: flex;;
+      justify-content: space-between;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .sm{
+        justify-content: space-between;
+        align-items: center;
+        width: 20px;
+      }
+    }&-copy{
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 20px;
+      font-size: 10px;
+      color: rgb(103, 103, 103);
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.section3 {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  &-elements {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+    &-title {
+      font-size: 21px;
+      font-weight: 400;
+      .section3title {
+        text-align: center;
+      }
+    }
+    &-p {
+      .section3p {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+      }
+    }
+    &-btns {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      .section3btn1 {
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        color: 541654;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #541654;
+        border-radius: 5px;
+        color: white;
+      }
+      .section3btn2 {
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        color: 541654;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 2px solid #541654;
+        background-color: white;
+        border-radius: 5px;
+        color: #541654;
+      }
+    }
+    &-targets {
+      padding: 20px 78px 20px 78px;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      .section3target1 {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        &-numbers {
+          text-align: center;
+          font-size: 45px;
+          color: #541654;
+        }
+        &-p {
+          text-align: center;
+          font-size: 13px;
+          line-height: 20px;
+        }
+      }
+    }
+    &-video {
+      width: 100%;
+      display: flex;
+      justify-content: start;
+      margin-left: -20px;
+      margin-right: -20px;
+      .videoyt {
+        width: 500px;
+        height: 200px;
+        clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+      }
+    }
+    &-quote {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .section3quote {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+        gap: 20px;
+        &-p {
+          font-size: 18px;
+          margin-top: 30px;
+          font-style: italic;
+          font-weight: 300;
+        }
+        &-info {
+          display: flex;
+          flex-direction: column;
+          &-name {
+            font-size: 15px;
+          }
+          &-carge {
+            font-size: 15px;
+          }
+          &-a {
+            text-decoration: none;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            color: #1164a3;
+          }
+        }
+        &-stad {
+          font-size: 13px;
+          color: #656565;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

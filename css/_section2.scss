@@ -1,0 +1,134 @@
+.section2 {
+  display: flex;
+  width: 100%;
+  background-color: #f4ede4;
+  flex-direction: column;
+  &-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-title {
+      display: flex;
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 15px;
+      .section2maintitle {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 18px;
+      }
+    }
+    &-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      flex-direction: row;
+      .icons-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        background-color: transparent;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px 20px 10px 20px;
+
+        .sec2logo1 {
+          width: 120px;
+        }
+        .sec2logo2 {
+          width: 80px;
+        }
+        .sec2logo3 {
+          width: 70px;
+        }
+        .sec2logo4 {
+          width: 50px;
+        }
+        .sec2logo5 {
+          width: 230px;
+        }
+        .sec2logo6 {
+          width: 80px;
+        }
+      }
+    }
+    &-targets {
+      width: 100%;
+      padding-top: 47px;
+      .target1 {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        gap: 30px;
+        &-img {
+          &-imagen {
+            width: 320px;
+          }
+        }
+        &-text {
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-bottom: 40px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          &-h1 {
+            font-size: 30px;
+            letter-spacing: -1px;
+          }
+          &-p {
+            font-size: 17px;
+            line-height: 27px;
+          }
+          &-a {
+            text-decoration: none;
+            font-size: 17px;
+          }
+        }
+      }
+      .target2 {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        gap: 30px;
+        &-img {
+          display: flex;
+          justify-content: end;
+          &-imagen {
+            width: 300px;
+          }
+        }
+        &-text {
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-bottom: 40px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          &-h1 {
+            font-size: 30px;
+            letter-spacing: -1px;
+          }
+          &-p {
+            font-size: 17px;
+            line-height: 27px;
+          }
+          &-a {
+            text-decoration: none;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
